@@ -146,7 +146,7 @@ public class MobController : MonoBehaviour
                 GameManager.instance.mushCount++;
             }
             GameManager.instance.AddScore(1);
-            GameManager.instance.GetMoney(10);
+            GameManager.instance.GetMoney(20);
             Destroy(gameObject);
         }
     }

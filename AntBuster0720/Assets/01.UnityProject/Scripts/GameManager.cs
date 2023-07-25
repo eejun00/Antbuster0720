@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour
     public int life = 8;
     public int mushCount = 8;
 
+    public GameObject clickedTower;
+
     private void Awake()
     {
         if (instance.IsValid() == false)
