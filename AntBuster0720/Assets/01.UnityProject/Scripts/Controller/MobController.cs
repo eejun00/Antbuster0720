@@ -32,7 +32,7 @@ public class MobController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        currentHp = maxHp;
+        currentHp = maxHp + GameManager.instance.wavePlus;
         // 시작 위치를 출발지로 초기화
         transform.position = startPoint.position;
         
@@ -145,7 +145,7 @@ public class MobController : MonoBehaviour
                 destination.life_[GameManager.instance.mushCount].SetActive(true);
                 GameManager.instance.mushCount++;
             }
-            GameManager.instance.AddScore(1);
+            GameManager.instance.AddScore(100);
             GameManager.instance.GetMoney(20);
             Destroy(gameObject);
         }

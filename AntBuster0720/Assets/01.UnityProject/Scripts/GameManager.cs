@@ -19,6 +19,7 @@ public class GameManager : MonoBehaviour
     public int money = 100;
     public int life = 8;
     public int mushCount = 8;
+    public int wavePlus = 2;
 
     public GameObject clickedTower;
 
@@ -67,6 +68,7 @@ public class GameManager : MonoBehaviour
         if(!isGameover)
         {
             waveLevel += 1;
+            wavePlus += 2;
             levelText.text = string.Format("Next Lv.{0}", waveLevel);
         }
     }

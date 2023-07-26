@@ -116,7 +116,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   attackRange: 5
-  bulletPrefab: {fileID: 7218470049847051327, guid: d57b7694fe93b4f46a39560230ec19be, type: 3}
+  bulletPrefab: {fileID: 7218470049847051327, guid: 08ac81598f409a549bbb35a7d78d466c, type: 3}
   shootRate: 0.8
   towerUpgradeImg: {fileID: -354344236524984719, guid: efef9d7769d7e1c4fbf765974d26533c, type: 3}
 --- !u!50 &357287708582859553
